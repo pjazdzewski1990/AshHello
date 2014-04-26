@@ -113,3 +113,23 @@ h1 {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
 }
+
+.workstation {
+    position:absolute;
+    left:10%;
+    right:10%;
+    bottom:10%;
+    top:10%;
+}
+
+.worksquare {
+    background-color:#00aaee;
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+.sidebar {
+    background-color:#55c600;
+    animation:fade 4000ms infinite;
+    -webkit-animation:fade 4000ms infinite;
+}
