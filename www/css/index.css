@@ -53,9 +53,39 @@ body {
     bottom:10%;
     top:10%;
     text-align:center;
-    /*padding:180px 0px 0px 0px;*/     /* image height is 200px (bottom 20px are overlapped with text) */
-    /*margin:0px 0px 0px -112px;*/  /* offset vertical: half of image height and text area height */
-                                   /* offset horizontal: half of text area width */
+}
+
+#deviceready {
+    margin:0 auto;
+    margin-bottom: 10px;
+    width:300px;
+}
+
+.workstation { }
+
+.worksquare {
+    background-color:#00aaee;
+    animation:fade 4500ms infinite;
+    -webkit-animation:fade 4500ms infinite;
+}
+
+.sidebar {
+    background-color:#55c600;
+    animation:fade 12000ms infinite;
+    -webkit-animation:fade 12000ms infinite;
+}
+
+@media screen and (orientation:portrait) { }
+
+@media screen and (orientation:landscape) { 
+    .worksquare {
+        max-width: 40%;
+        float: left;
+    }
+    .sidebar {
+        max-width: 20%;
+        float: left;
+    }
 }
 
 /* Landscape layout (with min-width) */
@@ -111,24 +141,4 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
-}
-
-#deviceready {
-    margin:0 auto;
-    margin-bottom: 10px;
-    width:300px;
-}
-
-.workstation { }
-
-.worksquare {
-    background-color:#00aaee;
-    animation:fade 4500ms infinite;
-    -webkit-animation:fade 4500ms infinite;
-}
-
-.sidebar {
-    background-color:#55c600;
-    animation:fade 12000ms infinite;
-    -webkit-animation:fade 12000ms infinite;
 }
