@@ -35,6 +35,13 @@ var app = {
     onDeviceReady: function() {
         console.log('Received onDeviceReady Event');
         app.setupUI();
+        app.runAshTests();
+    },
+    runAshTests: function() {
+        window.onerror = function(errorMsg, url, lineNumber) {
+            alert("Error " + url + ":" + lineNumber + "\n" + errorMsg);
+        };
+        Ash.loadTests(["test/myTest.js"]);
     },
     // Update DOM on a Received Event
     setupUI: function() {

@@ -4,6 +4,9 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    <feature name="Ash">
+        <param name="android-package" value="pl.ug.ash.AshPlugin" />
+    </feature>
     <name>AshHello</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
