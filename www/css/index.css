@@ -79,7 +79,7 @@ body {
 
 @media screen and (orientation:landscape) { 
     .worksquare {
-        max-width: 40%;
+        max-width: 80%;
         float: left;
     }
     .sidebar {
