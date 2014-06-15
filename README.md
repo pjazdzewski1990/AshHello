@@ -1,4 +1,7 @@
 AshHello
 ========
 
-Uruchamianie korzystając z Cordova CLI [id]: <http://example.com/>  "Optional Title Here"
+Uruchom program poleceniem
+
+sh run.sh
+
